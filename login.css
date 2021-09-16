@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&family=Poppins:wght@300&family=Sacramento&display=swap');
+* {
+    font-family: poppins;
+}
+
+#wrapper {
+    background: lightgray;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-md-12 {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+.col-md-12 {
+    padding: 40px;
+}
+
+input {
+    background: 0;
+    width: 200px;
+    outline: 0;
+    border: 0;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+    margin: 20px 0;
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.8);
+}
